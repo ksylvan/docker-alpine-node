@@ -9,7 +9,7 @@ RUN rm -rf /usr/share/man /tmp/* /var/cache/apk/* /root/.npm \
     /root/.node-gyp /root/.gnupg /usr/lib/node_modules/npm/man \
     /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html
 
-RUN npm install -g sails mocha
+RUN npm install -g sails mocha jslint
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
