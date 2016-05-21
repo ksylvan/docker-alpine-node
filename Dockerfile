@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.1.0
+FROM mhart/alpine-node:6.2.0
 
 MAINTAINER Kayvan Sylvan <kayvansylvan@gmail.com>
 
