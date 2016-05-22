@@ -7,4 +7,4 @@ Based on the node-alpine images at https://github.com/mhart/alpine-node
 
 Docker hub images here: https://hub.docker.com/r/mhart/alpine-node
 
-Modeled after The Dockerfile here https://github.com/nodejs/docker-node/blob/master/5.8/onbuild/Dockerfile
+Modeled after The Dockerfile here https://github.com/nodejs/docker-node/blob/master/6.2/Dockerfile
