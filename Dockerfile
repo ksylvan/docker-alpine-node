@@ -4,7 +4,7 @@ MAINTAINER Kayvan Sylvan <kayvansylvan@gmail.com>
 
 RUN apk update && apk upgrade
 
-RUN apk add --no-cache g++ gcc make postgresql-dev python
+RUN apk add --no-cache g++ gcc make postgresql-dev python git
 RUN rm -rf /usr/share/man /tmp/* /var/cache/apk/* /root/.npm \
     /root/.node-gyp /root/.gnupg /usr/lib/node_modules/npm/man \
     /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html
